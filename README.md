@@ -1,36 +1,43 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Real Estate Property Renting Website
+
+This project is a Real Estate Property Renting Website built using **Next.js** and **ShadCN** as the UI component library, with **Tailwind CSS** for styling. The website features a Home page and a Listings page that displays all available properties. Users can filter properties based on location, price, and the number of rooms.
+
+## Features
+
+- **Home Page**: A welcoming page with an overview of the services offered.
+- **Listings Page**: Displays a list of all available properties with details such as price, location, and room count.
+- **Filtering**: Users can filter properties by:
+  - **Location**: Search for properties in specific cities or areas.
+  - **Price**: Filter by price range to find properties within your budget.
+  - **Rooms**: Filter by the number of rooms to find the perfect-sized property.
+
+## Technologies Used
+
+- **Next.js**: A React framework for building fast, user-friendly web applications.
+- **ShadCN**: A component library that provides pre-built UI components to accelerate development.
+- **Tailwind CSS**: A utility-first CSS framework for custom and responsive designs.
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
 
-```bash
+Ensure you have the following installed:
+
+- Node.js (v14 or later)
+- npm or yarn
+
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/yourusername/real-estate-renting-website.git
+   cd real-estate-renting-website
+
+npm install
+# or
+yarn install
+
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
